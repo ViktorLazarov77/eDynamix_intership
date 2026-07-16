@@ -1,0 +1,84 @@
+{
+    "items": [
+        {
+            "type": "book",
+            "item_id": 1,
+            "title": "The Little Prince",
+            "author": "Antoine de Saint-Exupery",
+            "year": 1943,
+            "available": true,
+            "isbn": "9780156012195",
+            "page_count": 96
+        },
+        {
+            "type": "book",
+            "item_id": 2,
+            "title": "1984",
+            "author": "George Orwell",
+            "year": 1949,
+            "available": false,
+            "isbn": "9780451524935",
+            "page_count": 328
+        },
+        {
+            "type": "book",
+            "item_id": 3,
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "year": 1937,
+            "available": true,
+            "isbn": "9780345339683",
+            "page_count": 310
+        },
+        {
+            "type": "ebook",
+            "item_id": 4,
+            "title": "Learning Python",
+            "author": "Mark Lutz",
+            "year": 2013,
+            "available": true,
+            "file_format": "PDF",
+            "size_mb": 8.4,
+            "readers": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "ebook",
+            "item_id": 5,
+            "title": "Clean Code",
+            "author": "Robert C. Martin",
+            "year": 2008,
+            "available": true,
+            "file_format": "EPUB",
+            "size_mb": 3.1,
+            "readers": []
+        }
+    ],
+    "readers": [
+        {
+            "reader_id": 1,
+            "name": "Maria Ivanova",
+            "rented_items": [
+                2,
+                4
+            ],
+            "rented_books_count": 1
+        },
+        {
+            "reader_id": 2,
+            "name": "George Todorov",
+            "rented_items": [
+                4
+            ],
+            "rented_books_count": 0
+        },
+        {
+            "reader_id": 3,
+            "name": "Peter Petrov",
+            "rented_items": [],
+            "rented_books_count": 0
+        }
+    ]
+}
